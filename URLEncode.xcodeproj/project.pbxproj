@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08897A0F168D8D9E00912B0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08897A0E168D8D9E00912B0D /* UIKit.framework */; };
+		08897A11168D8D9E00912B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08897A10168D8D9E00912B0D /* Foundation.framework */; };
+		08897A13168D8D9E00912B0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08897A12168D8D9E00912B0D /* CoreGraphics.framework */; };
+		08897A19168D8D9E00912B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08897A17168D8D9E00912B0D /* InfoPlist.strings */; };
+		08897A1B168D8D9E00912B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08897A1A168D8D9E00912B0D /* main.m */; };
+		08897A1F168D8D9E00912B0D /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08897A1E168D8D9E00912B0D /* CBAppDelegate.m */; };
+		08897A21168D8D9E00912B0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08897A20168D8D9E00912B0D /* Default.png */; };
+		08897A23168D8D9E00912B0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08897A22168D8D9E00912B0D /* Default@2x.png */; };
+		08897A25168D8D9E00912B0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08897A24168D8D9E00912B0D /* Default-568h@2x.png */; };
+		08897A28168D8D9E00912B0D /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08897A27168D8D9E00912B0D /* CBViewController.m */; };
+		08897A2B168D8D9E00912B0D /* CBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08897A29168D8D9E00912B0D /* CBViewController.xib */; };
+		08897A33168D8DCC00912B0D /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 08897A32168D8DCC00912B0D /* NSString+URLEncode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08897A0A168D8D9E00912B0D /* URLEncode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLEncode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08897A0E168D8D9E00912B0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08897A10168D8D9E00912B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08897A12168D8D9E00912B0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08897A16168D8D9E00912B0D /* URLEncode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLEncode-Info.plist"; sourceTree = "<group>"; };
+		08897A18168D8D9E00912B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08897A1A168D8D9E00912B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08897A1C168D8D9E00912B0D /* URLEncode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLEncode-Prefix.pch"; sourceTree = "<group>"; };
+		08897A1D168D8D9E00912B0D /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		08897A1E168D8D9E00912B0D /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		08897A20168D8D9E00912B0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		08897A22168D8D9E00912B0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		08897A24168D8D9E00912B0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		08897A26168D8D9E00912B0D /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		08897A27168D8D9E00912B0D /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		08897A2A168D8D9E00912B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController.xib; sourceTree = "<group>"; };
+		08897A31168D8DCC00912B0D /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		08897A32168D8DCC00912B0D /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08897A07168D8D9E00912B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08897A0F168D8D9E00912B0D /* UIKit.framework in Frameworks */,
+				08897A11168D8D9E00912B0D /* Foundation.framework in Frameworks */,
+				08897A13168D8D9E00912B0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088979FF168D8D9E00912B0D = {
+			isa = PBXGroup;
+			children = (
+				08897A14168D8D9E00912B0D /* URLEncode */,
+				08897A0D168D8D9E00912B0D /* Frameworks */,
+				08897A0B168D8D9E00912B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08897A0B168D8D9E00912B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08897A0A168D8D9E00912B0D /* URLEncode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08897A0D168D8D9E00912B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08897A0E168D8D9E00912B0D /* UIKit.framework */,
+				08897A10168D8D9E00912B0D /* Foundation.framework */,
+				08897A12168D8D9E00912B0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08897A14168D8D9E00912B0D /* URLEncode */ = {
+			isa = PBXGroup;
+			children = (
+				08897A1D168D8D9E00912B0D /* CBAppDelegate.h */,
+				08897A1E168D8D9E00912B0D /* CBAppDelegate.m */,
+				08897A26168D8D9E00912B0D /* CBViewController.h */,
+				08897A27168D8D9E00912B0D /* CBViewController.m */,
+				08897A29168D8D9E00912B0D /* CBViewController.xib */,
+				08897A31168D8DCC00912B0D /* NSString+URLEncode.h */,
+				08897A32168D8DCC00912B0D /* NSString+URLEncode.m */,
+				08897A15168D8D9E00912B0D /* Supporting Files */,
+			);
+			path = URLEncode;
+			sourceTree = "<group>";
+		};
+		08897A15168D8D9E00912B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08897A16168D8D9E00912B0D /* URLEncode-Info.plist */,
+				08897A17168D8D9E00912B0D /* InfoPlist.strings */,
+				08897A1A168D8D9E00912B0D /* main.m */,
+				08897A1C168D8D9E00912B0D /* URLEncode-Prefix.pch */,
+				08897A20168D8D9E00912B0D /* Default.png */,
+				08897A22168D8D9E00912B0D /* Default@2x.png */,
+				08897A24168D8D9E00912B0D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08897A09168D8D9E00912B0D /* URLEncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08897A2E168D8D9E00912B0D /* Build configuration list for PBXNativeTarget "URLEncode" */;
+			buildPhases = (
+				08897A06168D8D9E00912B0D /* Sources */,
+				08897A07168D8D9E00912B0D /* Frameworks */,
+				08897A08168D8D9E00912B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLEncode;
+			productName = URLEncode;
+			productReference = 08897A0A168D8D9E00912B0D /* URLEncode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08897A01168D8D9E00912B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lei Yan";
+			};
+			buildConfigurationList = 08897A04168D8D9E00912B0D /* Build configuration list for PBXProject "URLEncode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 088979FF168D8D9E00912B0D;
+			productRefGroup = 08897A0B168D8D9E00912B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08897A09168D8D9E00912B0D /* URLEncode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08897A08168D8D9E00912B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08897A19168D8D9E00912B0D /* InfoPlist.strings in Resources */,
+				08897A21168D8D9E00912B0D /* Default.png in Resources */,
+				08897A23168D8D9E00912B0D /* Default@2x.png in Resources */,
+				08897A25168D8D9E00912B0D /* Default-568h@2x.png in Resources */,
+				08897A2B168D8D9E00912B0D /* CBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08897A06168D8D9E00912B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08897A1B168D8D9E00912B0D /* main.m in Sources */,
+				08897A1F168D8D9E00912B0D /* CBAppDelegate.m in Sources */,
+				08897A28168D8D9E00912B0D /* CBViewController.m in Sources */,
+				08897A33168D8DCC00912B0D /* NSString+URLEncode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08897A17168D8D9E00912B0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08897A18168D8D9E00912B0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08897A29168D8D9E00912B0D /* CBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08897A2A168D8D9E00912B0D /* en */,
+			);
+			name = CBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08897A2C168D8D9E00912B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08897A2D168D8D9E00912B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08897A2F168D8D9E00912B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLEncode/URLEncode-Prefix.pch";
+				INFOPLIST_FILE = "URLEncode/URLEncode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08897A30168D8D9E00912B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLEncode/URLEncode-Prefix.pch";
+				INFOPLIST_FILE = "URLEncode/URLEncode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08897A04168D8D9E00912B0D /* Build configuration list for PBXProject "URLEncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08897A2C168D8D9E00912B0D /* Debug */,
+				08897A2D168D8D9E00912B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08897A2E168D8D9E00912B0D /* Build configuration list for PBXNativeTarget "URLEncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08897A2F168D8D9E00912B0D /* Debug */,
+				08897A30168D8D9E00912B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08897A01168D8D9E00912B0D /* Project object */;
+}
